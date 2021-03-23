@@ -13,11 +13,11 @@ export default function Home(props) {
   const onSubmit = (e) => {
     localStorage.setItem("isSubmitted", true);
     localStorage.setItem("mobileNumber", inputText);
-    props.history.push("/thank-you");
+    props.history.push("/go-kwik/thank-you");
   };
 
   if (localStorage.getItem("isSubmitted") === "true") {
-    return <Redirect to="/thank-you" />;
+    return <Redirect to="/go-kwik/thank-you" />;
   }
   return (
     <div className="home-wrapper">
