@@ -7,7 +7,10 @@ export default function Home(props) {
   const [inputText, setInputText] = useState("");
 
   const onInputChange = (e) => {
-    setInputText(e.target.value);
+    const pattern = /^[0-9\b]+$/;
+
+    if (e.target.value === "" || pattern.test(e.target.value))
+      setInputText(e.target.value);
   };
 
   const onSubmit = (e) => {
@@ -37,7 +40,7 @@ export default function Home(props) {
       <input
         className="number-input"
         value={inputText}
-        type="number"
+        type="text"
         onChange={onInputChange}
         placeholder="Enter Mobile Number"
       ></input>
