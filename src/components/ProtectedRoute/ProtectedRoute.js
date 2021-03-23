@@ -8,7 +8,7 @@ export default function ProtectedRoute(props) {
       {...allProps}
       render={(props) =>
         localStorage.getItem("isSubmitted") === "true" ? (
-          <Component {...props} hello="hello" />
+          <Component {...props} />
         ) : (
           <Redirect to="/" />
         )

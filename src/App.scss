@@ -1,0 +1,162 @@
+/* to remove the arrows from input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-input {
+  text-align: center;
+  font-size: larger;
+  background-color: #e0e1e4;
+  color: rgb(0, 0, 0);
+  width: 90%;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  border: 1px solid #c9c9c9;
+  padding: 20px 0px;
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.info {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 5px;
+  &.hidden {
+    visibility: hidden;
+  }
+}
+
+.submit-btn {
+  margin: 15px;
+  align-self: center;
+  background-color: #009fe3;
+  color: white;
+  width: 90%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16);
+  border: none;
+  padding: 20px 0px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  &:disabled {
+    background-color: #cccccc;
+    box-shadow: 1px 1px 5px #cccccc;
+    color: #666666;
+  }
+}
+
+.man-matters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  z-index: 2;
+  .man-matters-img {
+    width: 50%;
+  }
+}
+
+.congratulations {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  z-index: 2;
+  span {
+    font-size: 34px;
+    @media (max-width: 425px) {
+      font-size: 21px;
+    }
+  }
+  .congratulations-text {
+    margin: 0;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, rgb(150, 2, 150), yellow);
+    background: -o-linear-gradient(right, rgb(150, 2, 150), yellow);
+    background: -moz-linear-gradient(right, rgb(150, 2, 150), yellow);
+    background: linear-gradient(to right, rgb(150, 2, 150), yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media (max-width: 425px) {
+      font-size: 27px;
+    }
+  }
+}
+
+.ty-wrapper,
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  background: white;
+}
+
+.color-div {
+  position: absolute;
+  background-color: #0c0d1c;
+  width: 100%;
+  max-height: 32vh;
+  min-height: 318px;
+  z-index: 1;
+  @media (max-width: 425px) {
+    max-height: 32vh;
+    min-height: 318px;
+  }
+}
+
+.paytm-div {
+  margin: 10px;
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  border-radius: 25px;
+  box-shadow: 1px 5px 5px #888888;
+  overflow: hidden;
+  z-index: 2;
+  .paytm-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.goKwik-img {
+  width: 100%;
+  height: 100%;
+}
+
+.other-text {
+  margin-top: 20px;
+  .other-text-row {
+    display: flex;
+    .image-div {
+      img {
+        width: 50px;
+        margin: 20px;
+      }
+    }
+    .QA-div {
+      margin-right: 20px;
+    }
+  }
+  .que-text {
+    font-weight: bold;
+  }
+}
+
+.won-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    text-align: center;
+    font-size: 19px;
+  }
+}

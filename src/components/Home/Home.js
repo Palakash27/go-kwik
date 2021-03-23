@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Redirect } from "react-router";
-import manMatters from "../../logos/man-matters.png";
-import goKwik from "../../logos/goKwik.png";
-import paytm from "../../logos/paytm.png";
+import GoKwikFooter from "../GoKwikFooter/GoKwikFooter";
+import ManMattersContent from "../ManMattersContent/ManMattersContent";
 
 export default function Home(props) {
   const [inputText, setInputText] = useState("");
@@ -22,23 +21,7 @@ export default function Home(props) {
   }
   return (
     <div className="home-wrapper">
-      <div className="color-div"></div>
-      <div className="man-matters">
-        <img
-          className="man-matters-img"
-          src={manMatters}
-          alt="man-matter-img"
-        />
-      </div>
-      <div className="congratulations">
-        <b>
-          <p className="congratulations-text">Congratulations</p>
-        </b>
-      </div>
-      <div className="paytm-div">
-        <img className="paytm-img" src={paytm} alt="paytm-img" />
-      </div>
-
+      <ManMattersContent />
       <div className="won-text">
         <p>
           You have WON Paytm Gift
@@ -58,7 +41,7 @@ export default function Home(props) {
         onChange={onInputChange}
         placeholder="Enter Mobile Number"
       ></input>
-      <p className="info" hidden={inputText.length !== 0}>
+      <p className={`info ${inputText.length === 0 ? "" : "hidden"}`}>
         Enter the same number used on Man Matters
       </p>
       <button
@@ -68,9 +51,7 @@ export default function Home(props) {
       >
         Wow! Get my Paytm Gift Card >
       </button>
-      <div className="goKwik">
-        <img className="goKwik-img" src={goKwik} alt="goKwik-img" />
-      </div>
+      <GoKwikFooter />
     </div>
   );
 }
