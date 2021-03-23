@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/go-kwik/static/css/main.f7faff8b.chunk.css",
+    "main.js": "/go-kwik/static/js/main.63bf1aaa.chunk.js",
+    "main.js.map": "/go-kwik/static/js/main.63bf1aaa.chunk.js.map",
+    "runtime-main.js": "/go-kwik/static/js/runtime-main.4f7bc426.js",
+    "runtime-main.js.map": "/go-kwik/static/js/runtime-main.4f7bc426.js.map",
+    "static/js/2.001932ee.chunk.js": "/go-kwik/static/js/2.001932ee.chunk.js",
+    "static/js/2.001932ee.chunk.js.map": "/go-kwik/static/js/2.001932ee.chunk.js.map",
+    "index.html": "/go-kwik/index.html",
+    "static/css/main.f7faff8b.chunk.css.map": "/go-kwik/static/css/main.f7faff8b.chunk.css.map",
+    "static/js/2.001932ee.chunk.js.LICENSE.txt": "/go-kwik/static/js/2.001932ee.chunk.js.LICENSE.txt",
+    "static/media/cancel-logo.5b03caa0.png": "/go-kwik/static/media/cancel-logo.5b03caa0.png",
+    "static/media/goKwik.db4fd1f7.png": "/go-kwik/static/media/goKwik.db4fd1f7.png",
+    "static/media/man-matters.001b0af3.png": "/go-kwik/static/media/man-matters.001b0af3.png",
+    "static/media/paytm.e7055393.png": "/go-kwik/static/media/paytm.e7055393.png",
+    "static/media/whatsapp-logo.30fe39e6.jpg": "/go-kwik/static/media/whatsapp-logo.30fe39e6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f7bc426.js",
+    "static/js/2.001932ee.chunk.js",
+    "static/css/main.f7faff8b.chunk.css",
+    "static/js/main.63bf1aaa.chunk.js"
+  ]
+}
