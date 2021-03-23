@@ -10,12 +10,8 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/go-kwik/" component={Home} />
-          <ProtectedRoute
-            exact
-            path="/go-kwik/thank-you"
-            component={ThankYou}
-          />
+          <Route exact path="/" component={Home} />
+          <ProtectedRoute exact path="/thank-you" component={ThankYou} />
         </Switch>
       </div>
     </Router>

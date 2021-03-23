@@ -10,7 +10,7 @@ export default function ProtectedRoute(props) {
         localStorage.getItem("isSubmitted") === "true" ? (
           <Component {...props} />
         ) : (
-          <Redirect to="/go-kwik/" />
+          <Redirect to="/" />
         )
       }
     />
