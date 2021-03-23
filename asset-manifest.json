@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/go-kwik/static/css/main.f7faff8b.chunk.css",
-    "main.js": "/go-kwik/static/js/main.63bf1aaa.chunk.js",
-    "main.js.map": "/go-kwik/static/js/main.63bf1aaa.chunk.js.map",
+    "main.js": "/go-kwik/static/js/main.ba48a1e5.chunk.js",
+    "main.js.map": "/go-kwik/static/js/main.ba48a1e5.chunk.js.map",
     "runtime-main.js": "/go-kwik/static/js/runtime-main.4f7bc426.js",
     "runtime-main.js.map": "/go-kwik/static/js/runtime-main.4f7bc426.js.map",
     "static/js/2.001932ee.chunk.js": "/go-kwik/static/js/2.001932ee.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.4f7bc426.js",
     "static/js/2.001932ee.chunk.js",
     "static/css/main.f7faff8b.chunk.css",
-    "static/js/main.63bf1aaa.chunk.js"
+    "static/js/main.ba48a1e5.chunk.js"
   ]
 }
