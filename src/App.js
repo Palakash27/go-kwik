@@ -1,9 +1,12 @@
-import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import "./App.css";
+import AllRoutes from "./components/AllRoutes/AllRoutes";
 
 function App() {
   return (
-    <div className="App">start writing your code
-    </div>
+    <Router>
+      <AllRoutes />
+    </Router>
   );
 }
 
